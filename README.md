@@ -92,24 +92,25 @@ Now that the application has started running, visit the respective `locahost` po
 
 ## Desktop
 
-<video controls src="output/desktop.mp4" title="Desktop Output"></video>
+[Desktop Output Video](output/desktop.mp4)
 
 ## Mobile
 
-<video controls src="output/mobile.mp4" title="Title"></video>
+[Mobile Output Video](output/mobile.mp4)
 
 ---
+
 # Thought Process
 
 I first went and searched for Crypto Price tracker APIs and discovered Coin Market Cap
-![alt text](<output/coin-market-cap.jpg>)
+![alt text](output/coin-market-cap.jpg)
 
 Then I tried out the API by creating an account, getting the API key and testing it out in Postman
-![alt text](<output/postman.jpg>)
+![alt text](output/postman.jpg)
 
 I then sent a request from my react app, but I faced an error. It was a CORS error, it seems request is prohibited from client side and I had to create a backend proxy to send the API request
-![alt text](<output/error.jpg>)
+![alt text](output/error.jpg)
 
-Then I created a backend proxy, tested it out and integrated it with my React App. Then I moved the local states to a Redux store using the `@reduxjs/toolkit` and `react-redux` packages. I also implemented the React app using TypeScript for avoiding unknown type related errors while fetching the data. 
+Then I created a backend proxy, tested it out and integrated it with my React App. Then I moved the local states to a Redux store using the `@reduxjs/toolkit` and `react-redux` packages. I also implemented the React app using TypeScript for avoiding unknown type related errors while fetching the data.
 
 I also added a random modifier function which modifies the prices state randomly in an interval of `1 to 2 seconds` which resembled a WebSocket behaviour
