@@ -1,0 +1,4 @@
+crypto-tracker-client/node_modules/
+crypto-tracker-client/.env
+crypto-tracker-server/node_modules/
+crypto-tracker-server/.env
