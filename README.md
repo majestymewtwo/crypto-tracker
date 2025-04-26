@@ -91,11 +91,14 @@ Now that the application has started running, visit the respective `locahost` po
 # Results
 
 ## Desktop
-
+![Desktop Image](output/desktop.png)
 [Desktop Output Video](output/desktop.mp4)
 
 ## Mobile
 
+![Mobile Image - 1](output/mobile-1.png)
+![Mobile Image - 2](output/mobile-2.png)
+![Mobile Image - 3](output/mobile-3.png)
 [Mobile Output Video](output/mobile.mp4)
 
 ---
